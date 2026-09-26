@@ -372,15 +372,10 @@ footer a{color:var(--gold-light);text-decoration:none;font-size:13.5px}
 
 <script>
   // ===== Replace these two placeholders with your real values =====
-  const GOOGLE_FORM_LINK = "PASTE_GOOGLE_FORM_LINK_HERE";
+  const GOOGLE_FORM_LINK = "https://forms.gle/gXKKsLsQ3nVnQpfk8";
   const WHATSAPP_NUMBER = "923266646602";
   // ==================================================================
 
-  document.querySelectorAll('.cta-buy').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      window.location.href = GOOGLE_FORM_LINK;
-    });
-  });
 
   var waMessage = encodeURIComponent("Hi, I'm interested in the AI TO INCOME Ebook + Free Course offer.");
   var waLink = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + waMessage;
